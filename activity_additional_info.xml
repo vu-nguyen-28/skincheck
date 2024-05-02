@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Label for Full Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your full name"
+        android:inputType="textPersonName" />
+
+    <!-- Button to proceed to the next step -->
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
